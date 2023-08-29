@@ -16,10 +16,8 @@ class _BookDetailPageState extends State<BookDetailPage> {
       appBar: AppBar(
         title: Text(widget.book["name"]),
       ),
-      body: SingleChildScrollView(
-        child: HtmlWidget(
-          widget.book["htmlContent"],
-        ),
+      body: HtmlWidget(
+        widget.book["htmlContent"],
       ),
     );
   }
