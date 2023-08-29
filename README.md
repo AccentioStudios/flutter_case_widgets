@@ -8,6 +8,8 @@ Esta prueba tecnica fue desarrollada con Flutter 3.13. y Dart 3.1.0
 Este projeto faz parte do teste técnico como desenvolvedor Flutter na Accentio Studios
 Este teste técnico foi desenvolvido com Flutter 3.13. e Dart 3.1.0
 
+![Screen](assets/books_widgets.png)
+
 ## Requisitos
 
 **ES**:
