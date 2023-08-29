@@ -13,10 +13,10 @@ Este teste técnico foi desenvolvido com Flutter 3.13. e Dart 3.1.0
 ## Requisitos
 
 **ES**:
-En este proyecto te vas a encontrar con una aplicacion basica con dos pantallas. Una es el home donde muestra una lista de libros que vienen cargados de /assets/books.json y la otra pantalla es donde se muestra la lectura del libro.
+En este proyecto te vas a encontrar con una aplicacion basica con dos pantallas. Una es el home donde muestra una lista de libros que vienen cargados de ```/assets/books.json``` y la otra pantalla es donde se muestra la lectura del libro.
 
 **PT:**
-Neste projeto você encontrará um aplicativo básico com duas telas. Uma é a home onde mostra uma lista de livros que são carregados de /assets/books.json e a outra tela é onde a leitura do livro é mostrada.
+Neste projeto você encontrará um aplicativo básico com duas telas. Uma é a home onde mostra uma lista de livros que são carregados de ```/assets/books.json``` e a outra tela é onde a leitura do livro é mostrada.
 
 **ES:**
 ### To-do:
