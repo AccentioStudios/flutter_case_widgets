@@ -1,8 +1,19 @@
-import 'package:book_widgets/pages/home_page.dart';
+import 'package:book_widgets/pages/app.dart';
+import 'package:book_widgets/repository/book_repository.dart';
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
-void main() {
-  runApp(const MyApp());
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  final prefs = await SharedPreferences.getInstance();
+  final repository = BookRepositoryImp(prefs: prefs);
+  runApp(
+    Provider<BookRepositoryInterface>(
+      create: (context) => repository,
+      child: const MyApp(),
+    ),
+  );
 }
 
 class MyApp extends StatelessWidget {
@@ -18,7 +29,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
         useMaterial3: true,
       ),
-      home: const HomePage(),
+      home: const AppScreen(),
     );
   }
 }
