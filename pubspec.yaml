@@ -32,6 +32,8 @@ dependencies:
   flutter:
     sdk: flutter
   flutter_widget_from_html: ^0.10.3
+  shared_preferences: ^2.2.1
+  flutter_modular: ^6.3.1
 
 dev_dependencies:
 
@@ -57,6 +59,19 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
     - assets/books.json
+  fonts:
+   - family: ABeeZee
+     fonts:
+       - asset: assets/fonts/abeezee/ABeeZee-Italic.ttf
+       - asset: assets/fonts/abeezee/ABeeZee-Regular.ttf
+   - family: RachelBrown
+     fonts: 
+       - asset: assets/fonts/rachelbrown/RachelBrown.ttf
+   - family: Baskerville
+     fonts: 
+       - asset: assets/fonts/baskerville/LibreBaskerville-Bold.ttf
+       - asset: assets/fonts/baskerville/LibreBaskerville-Italic.ttf
+       - asset: assets/fonts/baskerville/LibreBaskerville-Regular.ttf  
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
   # For details regarding adding assets from package dependencies, see
